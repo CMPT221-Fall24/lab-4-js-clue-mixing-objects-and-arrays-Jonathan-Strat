@@ -1,0 +1,36 @@
+﻿*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+    text-align: center;
+    background-color: #f8f8f8;
+    color: black;
+    margin: 10px;
+    border: 5px solid black;
+    padding: 15px;
+    font: 16px 'Montserrat';
+    letter-spacing: .01em;
+    line-height: 0.6;
+}
+footer {
+    color: #3b3b3b;
+    text-align: center;
+}
+
+div {
+    float: left;
+    width: calc(100%/3);
+}
+
+div #count {
+    float: right;
+    width: calc(100%/3);
+}

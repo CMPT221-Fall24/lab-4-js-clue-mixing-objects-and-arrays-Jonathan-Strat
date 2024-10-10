@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+	<head>
+		<title> Clue Game </title>
+		<meta charset="UTF-8">
+		<link href="style4.css" rel="stylesheet"> </link>
+	</head>
+		
+	<body>
+		<div>
+			<h1> Clue Game Generator </h1>
+		
+			<p> <button onclick="createMystery()"> Create Mystery </button> </p>
+			<p> <button onclick="revealMystery(mystery)"> Reveal Mystery </button> </p>
+			<br>
+			<p id="message"> </p>
+		</div>
+		
+		<div>
+			<h2> Reshuffle: </h2>
+
+			<p> <button onclick="resetSuspects()"> Suspect Deck </button> </p>
+			<p> <button onclick="resetWeapons()"> Weapon Deck </button> </p>
+			<p> <button onclick="resetRooms()"> Room Deck </button> </p>
+			<p> <button onclick="resetAll()"> All Decks </button> </p>
+		</div>
+
+		<div>
+			<h2> Deck: </h2>
+	
+			<div class="count">
+				<p> Suspects: </p>
+				<p id="suspectCount"> </p>
+			</div>
+
+			<div class="count">
+				<p> Weapons: </p>
+				<p id="weaponCount"> </p>
+			</div>
+
+			<div class="count">
+				<p> Rooms: </p>
+				<p id="roomCount"> </p>
+			</div>
+		</div>
+		<p style="clear: left;">
+
+	<footer>
+		<hr>
+		<small>&copy Jonathan Strathausen, 10-10-2024</small>
+	</footer>
+	</body>
+	<script src="script4.js"></script>
+</html>
